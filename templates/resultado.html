@@ -1,0 +1,462 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Resultados | Vocación Perú</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <main class="test-container">
+
+        <div class="tag">VOCACIÓN PERÚ</div>
+
+        <h1>Tus resultados vocacionales</h1>
+
+        <p class="description">
+            Estas son tus cinco familias profesionales
+            con mayor afinidad estimada.
+        </p>
+
+        <!-- GRÁFICO RIASEC -->
+
+        <section class="question-card">
+
+            <h2>Tu perfil vocacional RIASEC</h2>
+
+            <p class="description">
+                Así se distribuyen tus respuestas en las seis áreas.
+            </p>
+
+            <div class="riasec-chart">
+
+                {% for area in areas_resultado %}
+
+                <div class="riasec-item">
+
+                    <div class="riasec-info">
+                        <span>{{ area.nombre }}</span>
+                        <strong>{{ area.porcentaje }}%</strong>
+                    </div>
+
+                    <div class="affinity-track">
+                        <div class="affinity-fill riasec-fill"
+                             style="width: {{ area.porcentaje }}%;">
+                        </div>
+                    </div>
+
+                    <small>
+                        Promedio: {{ area.promedio }} / 5
+                    </small>
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        </section>
+
+
+        <!-- FILTROS DE UNIVERSIDADES -->
+
+        <section class="question-card">
+
+            <h2>Explora las universidades</h2>
+
+            <p class="description">
+                Filtra las universidades según su región
+                y si son públicas o privadas.
+            </p>
+
+            <div class="university-filters">
+
+                <div class="filter-group">
+
+                    <label for="filter-region">
+                        Región
+                    </label>
+
+                    <select id="filter-region">
+                        <option value="">Todas las regiones</option>
+                    </select>
+
+                </div>
+
+                <div class="filter-group">
+
+                    <label for="filter-type">
+                        Tipo de universidad
+                    </label>
+
+                    <select id="filter-type">
+
+                        <option value="">Todos los tipos</option>
+                        <option value="pública">Públicas</option>
+                        <option value="privada">Privadas</option>
+
+                    </select>
+
+                </div>
+
+                <button type="button"
+                        id="reset-filters"
+                        class="reset-filter-button">
+                    Limpiar filtros
+                </button>
+
+            </div>
+
+            <p class="filter-counter" id="filter-counter">
+                Cargando universidades...
+            </p>
+
+        </section>
+
+
+        <!-- FAMILIAS PROFESIONALES -->
+
+        {% for resultado in resultados %}
+
+        <section class="question-card">
+
+            <h2>
+                {{ loop.index }}. {{ resultado.nombre }}
+            </h2>
+
+            <p class="result-section-title">
+                Afinidad estimada
+            </p>
+
+            <div class="result-percentage">
+
+                <span>{{ resultado.porcentaje }}%</span>
+
+                <small>
+                    {{ resultado.compatibilidad }} / 5
+                </small>
+
+            </div>
+
+            <div class="affinity-track">
+
+                <div class="affinity-fill"
+                     style="width: {{ resultado.porcentaje }}%;">
+                </div>
+
+            </div>
+
+
+            <h3 class="result-section-title">
+                Carreras que puedes explorar
+            </h3>
+
+            <ul class="career-list">
+
+                {% for carrera in resultado.carreras %}
+                <li>{{ carrera }}</li>
+                {% endfor %}
+
+            </ul>
+
+
+            <h3 class="result-section-title">
+                Universidades y sedes disponibles
+            </h3>
+
+            {% if resultado.universidades %}
+
+            <div class="university-list">
+
+                <!-- AGRUPAR SEDES POR UNIVERSIDAD -->
+
+                {% for nombre, sedes in resultado.universidades|groupby("nombre") %}
+
+                <details class="university-accordion"
+                         data-region="{{ sedes|map(attribute='region')|join('|') }}"
+                         data-type="{{ sedes[0].tipo or '' }}">
+
+                    <summary>
+
+                        <span>
+                            {{ nombre }}
+                        </span>
+
+                    </summary>
+
+                    <div class="university-content">
+
+                        <p>
+                            <strong>Tipo:</strong>
+                            {{ sedes[0].tipo or "No especificado" }}
+                        </p>
+
+                        <h4>Sedes disponibles</h4>
+
+                        {% for sede in sedes %}
+
+                        <div class="campus-card">
+
+                            <p>
+                                <strong>Sede:</strong>
+                                {{ sede.campus }}
+                            </p>
+
+                            <p>
+                                <strong>Región:</strong>
+                                {{ sede.region }}
+                            </p>
+
+                            <p>
+                                <strong>Carreras relacionadas:</strong>
+                            </p>
+
+                            <ul class="university-careers">
+
+                                {% for carrera_uni in sede.carreras %}
+                                <li>{{ carrera_uni }}</li>
+                                {% endfor %}
+
+                            </ul>
+
+                            {% if sede.url %}
+
+                            <a href="{{ sede.url }}"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="university-link">
+                                Consultar página oficial ↗
+                            </a>
+
+                            {% endif %}
+
+                        </div>
+
+                        {% if not loop.last %}
+                        <hr>
+                        {% endif %}
+
+                        {% endfor %}
+
+                    </div>
+
+                </details>
+
+                {% endfor %}
+
+                <p class="empty-universities filter-empty"
+                   style="display: none;">
+                    No hay universidades que coincidan con estos filtros.
+                </p>
+
+            </div>
+
+            {% else %}
+
+            <p class="empty-universities">
+                Todavía no tenemos universidades registradas
+                para esta familia profesional.
+            </p>
+
+            {% endif %}
+
+        </section>
+
+        {% endfor %}
+
+
+        <p class="description">
+            Los resultados son orientativos y no determinan
+            tu futuro profesional. Verifica la oferta académica
+            vigente de cada sede antes de postular.
+        </p>
+
+        <a href="/" class="start-button">
+            Volver al inicio
+        </a>
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script>
+
+        // ELEMENTOS DE LOS FILTROS
+
+        const regionFilter = document.getElementById("filter-region");
+        const typeFilter = document.getElementById("filter-type");
+        const resetButton = document.getElementById("reset-filters");
+        const counter = document.getElementById("filter-counter");
+
+        const universities = [
+            ...document.querySelectorAll(".university-accordion")
+        ];
+
+
+        // OBTENER REGIONES DISPONIBLES
+
+        const regions = [
+            ...new Set(
+
+                universities.flatMap(university =>
+
+                    university.dataset.region
+                        .split("|")
+                        .map(region => region.trim())
+                        .filter(region => region !== "")
+
+                )
+
+            )
+        ].sort((a, b) => a.localeCompare(b, "es"));
+
+
+        // AGREGAR REGIONES AL SELECT
+
+        regions.forEach(region => {
+
+            const option = document.createElement("option");
+
+            option.value = region.toLowerCase();
+            option.textContent = region;
+
+            regionFilter.appendChild(option);
+
+        });
+
+
+        // APLICAR FILTROS
+
+        function applyFilters() {
+
+            const selectedRegion = regionFilter.value.toLowerCase();
+            const selectedType = typeFilter.value.toLowerCase();
+
+            let visibleCount = 0;
+
+            universities.forEach(university => {
+
+                const regions = university.dataset.region
+                    .split("|")
+                    .map(region => region.trim().toLowerCase());
+
+                const type = university.dataset.type
+                    .trim()
+                    .toLowerCase();
+
+                const matchesRegion =
+                    selectedRegion === "" ||
+                    regions.includes(selectedRegion);
+
+                const matchesType =
+                    selectedType === "" ||
+                    type.includes(selectedType);
+
+                const visible = matchesRegion && matchesType;
+
+                university.style.display = visible ? "" : "none";
+
+                if (visible) {
+                    visibleCount++;
+                }
+
+            });
+
+
+            // ACTUALIZAR MENSAJES POR FAMILIA
+
+            document.querySelectorAll(".university-list").forEach(list => {
+
+                const visibleUniversities = [
+                    ...list.querySelectorAll(".university-accordion")
+                ].filter(university =>
+
+                    university.style.display !== "none"
+
+                );
+
+                const emptyMessage = list.querySelector(".filter-empty");
+
+                if (emptyMessage) {
+
+                    emptyMessage.style.display =
+                        visibleUniversities.length === 0 ? "block" : "none";
+
+                }
+
+            });
+
+
+            // ACTUALIZAR CONTADOR
+
+            counter.textContent =
+                visibleCount === 1
+                ? "Se encontró 1 universidad."
+                : `Se encontraron ${visibleCount} universidades.`;
+
+        }
+
+
+        // EVENTOS
+
+        regionFilter.addEventListener("change", applyFilters);
+
+        typeFilter.addEventListener("change", applyFilters);
+
+
+        // LIMPIAR FILTROS
+
+        resetButton.addEventListener("click", () => {
+
+            regionFilter.value = "";
+            typeFilter.value = "";
+
+            applyFilters();
+
+        });
+
+
+        // PERMITIR SOLO UN ACORDEÓN ABIERTO
+
+        document.querySelectorAll(".university-accordion").forEach(
+            (acordeon) => {
+
+                acordeon.addEventListener("toggle", () => {
+
+                    if (acordeon.open) {
+
+                        document.querySelectorAll(
+                            ".university-accordion"
+                        ).forEach((otro) => {
+
+                            if (otro !== acordeon) {
+                                otro.open = false;
+                            }
+
+                        });
+
+                    }
+
+                });
+
+            }
+        );
+
+
+        // INICIAR
+
+        applyFilters();
+
+    </script>
+
+</body>
+
+</html>

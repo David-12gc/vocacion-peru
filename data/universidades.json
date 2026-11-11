@@ -1,0 +1,1109 @@
+[
+  {
+    "nombre": "Universidad Nacional de Piura",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Piura",
+        "region": "Piura",
+        "url": "https://www.unp.edu.pe/web/facultades/",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería Industrial", "Ingeniería Informática", "Ingeniería Mecatrónica", "Ingeniería Electrónica y Telecomunicaciones", "Ingeniería de Minas", "Ingeniería Geológica", "Ingeniería de Petróleo", "Ingeniería Química", "Ingeniería Ambiental y Seguridad Industrial"],
+          "ADM": ["Ciencias Administrativas", "Ciencias Contables y Financieras", "Economía"],
+          "SAL": ["Medicina Humana", "Enfermería", "Estomatología", "Obstetricia", "Psicología"],
+          "SOC": ["Derecho y Ciencias Políticas", "Historia y Geografía", "Lengua y Literatura", "Ciencias de la Comunicación"],
+          "ART": ["Arquitectura y Urbanismo", "Ciencias de la Comunicación"],
+          "NAT": ["Física", "Ciencias Biológicas", "Matemática", "Estadística"],
+          "EDU": ["Educación Inicial", "Educación Primaria"],
+          "AGR": ["Agronomía", "Ingeniería Agrícola", "Ingeniería Zootecnia", "Medicina Veterinaria", "Ingeniería Pesquera"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad de Piura",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus Piura",
+        "region": "Piura",
+        "url": "https://www.udep.edu.pe/campus/piura/",
+        "programas": {
+          "ING": ["Ingeniería de Software e Inteligencia Artificial", "Ingeniería Civil", "Ingeniería Industrial y de Sistemas", "Ingeniería Mecánico-Eléctrica"],
+          "ADM": ["Administración de Empresas", "Administración y Marketing", "Administración y Negocios Internacionales", "Contabilidad y Auditoría", "Economía", "Economía Financiera", "Economía y Relaciones Internacionales"],
+          "SAL": ["Psicología"],
+          "SOC": ["Derecho", "Historia y Gestión Cultural"],
+          "ART": ["Comunicación Audiovisual", "Comunicaciones de Marketing", "Periodismo", "Arquitectura"],
+          "EDU": ["Educación Inicial", "Educación Primaria", "Educación Secundaria"]
+        }
+      },
+      {
+        "nombre": "Campus Lima - Miraflores",
+        "region": "Lima",
+        "url": "https://www.udep.edu.pe/campus/piura/",
+        "programas": {
+          "ING": ["Ingeniería Industrial y de Sistemas"],
+          "ADM": ["Administración de Empresas", "Administración y Marketing", "Administración y Negocios Internacionales", "Administración de Servicios", "Economía", "Economía Financiera", "Economía y Relaciones Internacionales"],
+          "SAL": ["Medicina Humana", "Psicología"],
+          "SOC": ["Derecho", "Historia y Gestión Cultural"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Privada Antenor Orrego",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus Piura",
+        "region": "Piura",
+        "url": "https://upao.edu.pe/facultades/",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería Industrial"],
+          "ADM": ["Administración", "Administración y Marketing", "Economía y Negocios Internacionales", "Contabilidad y Finanzas"],
+          "SAL": ["Medicina Humana", "Psicología", "Enfermería"],
+          "SOC": ["Derecho"],
+          "ART": ["Arquitectura", "Comunicación y Medios Digitales"]
+        }
+      },
+      {
+        "nombre": "Campus Trujillo",
+        "region": "La Libertad",
+        "url": "https://upao.edu.pe/facultades/",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería Industrial", "Ingeniería de Sistemas e Inteligencia Artificial", "Ingeniería Electrónica y Mecatrónica"],
+          "ADM": ["Administración", "Administración y Marketing", "Contabilidad y Finanzas", "Economía y Negocios Internacionales"],
+          "SAL": ["Medicina Humana", "Enfermería", "Obstetricia", "Estomatología", "Psicología"],
+          "SOC": ["Derecho"],
+          "ART": ["Arquitectura", "Comunicación y Medios Digitales"],
+          "AGR": ["Ingeniería Agrónoma y Agroexportación", "Medicina Veterinaria y Zootecnia"],
+          "EDU": ["Educación Inicial"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional de San Antonio Abad del Cusco",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Sede Cusco",
+        "region": "Cusco",
+        "url": "https://admision.unsaac.edu.pe/carreras/",
+        "programas": {
+          "ING": ["Ingeniería Eléctrica", "Ingeniería Geológica", "Ingeniería Metalúrgica", "Ingeniería de Minas", "Ingeniería Mecánica", "Ingeniería Química", "Ingeniería Civil", "Ingeniería Informática y de Sistemas", "Ingeniería Electrónica", "Ingeniería Petroquímica"],
+          "NAT": ["Química", "Física", "Matemática", "Biología"],
+          "SAL": ["Enfermería", "Medicina Humana", "Odontología", "Obstetricia", "Psicología"],
+          "ADM": ["Ciencias Administrativas", "Contabilidad", "Economía", "Turismo"],
+          "SOC": ["Antropología", "Arqueología", "Derecho", "Historia", "Ciencias de la Comunicación", "Filosofía"],
+          "ART": ["Arquitectura"],
+          "AGR": ["Agronomía", "Zootecnia"],
+          "EDU": ["Educación"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional de San Martín",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Ciudad Universitaria Morales",
+        "region": "San Martín",
+        "url": "https://unsm.edu.pe/",
+        "programas": {
+          "ADM": ["Administración", "Contabilidad", "Economía"],
+          "ING": ["Ingeniería Agroindustrial", "Ingeniería Civil", "Ingeniería de Sistemas e Informática"],
+          "SAL": ["Enfermería", "Medicina Humana", "Obstetricia"],
+          "ART": ["Arquitectura"],
+          "AGR": ["Agronomía"],
+          "EDU": ["Idiomas"],
+          "SOC": ["Derecho"]
+        }
+      },
+      {
+        "nombre": "Filial Rioja",
+        "region": "San Martín",
+        "url": "https://unsm.edu.pe/",
+        "programas": {
+          "ADM": ["Contabilidad"],
+          "EDU": ["Educación Inicial", "Educación Primaria", "Educación Secundaria"],
+          "SAL": ["Psicología"]
+        }
+      },
+      {
+        "nombre": "Filial Moyobamba",
+        "region": "San Martín",
+        "url": "https://unsm.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Ambiental", "Ingeniería Sanitaria"]
+        }
+      },
+      {
+        "nombre": "Filial Lamas",
+        "region": "San Martín",
+        "url": "https://unsm.edu.pe/",
+        "programas": {
+          "ADM": ["Turismo"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional Mayor de San Marcos",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Ciudad Universitaria",
+        "region": "Lima",
+        "url": "https://www.unmsm.edu.pe/formacion-academica/facultades",
+        "programas": {
+          "ING": ["Ingeniería de Software", "Ingeniería de Sistemas e Informática", "Ingeniería Civil", "Ingeniería Industrial", "Ingeniería Ambiental", "Ingeniería Geológica", "Ingeniería de Minas", "Ingeniería Electrónica", "Ingeniería Eléctrica", "Ingeniería de Telecomunicaciones", "Ingeniería Química", "Ingeniería Biomédica"],
+          "ADM": ["Administración", "Administración de Negocios Internacionales", "Administración de Turismo", "Marketing", "Contabilidad", "Economía"],
+          "SAL": ["Medicina Humana", "Enfermería", "Obstetricia", "Nutrición", "Tecnología Médica", "Odontología", "Psicología", "Farmacia y Bioquímica", "Medicina Veterinaria"],
+          "SOC": ["Antropología", "Arqueología", "Geografía", "Historia", "Sociología", "Trabajo Social", "Derecho", "Ciencia Política"],
+          "ART": ["Comunicación Social", "Arte", "Danza", "Conservación y Restauración", "Literatura"],
+          "NAT": ["Biología", "Genética y Biotecnología", "Microbiología y Parasitología", "Física", "Matemática", "Estadística", "Química"],
+          "EDU": ["Educación", "Educación Física"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional de Ingeniería",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Rímac",
+        "region": "Lima",
+        "url": "https://www.uni.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería Industrial", "Ingeniería de Sistemas", "Ingeniería Mecánica", "Ingeniería Eléctrica", "Ingeniería Electrónica", "Ingeniería de Telecomunicaciones", "Ingeniería Química", "Ingeniería Textil", "Ingeniería de Petróleo y Gas Natural", "Ingeniería Petroquímica", "Ingeniería Ambiental", "Ingeniería Geológica", "Ingeniería de Minas", "Ingeniería Metalúrgica"],
+          "ADM": ["Ingeniería Económica"],
+          "NAT": ["Ingeniería Estadística"],
+          "ART": ["Arquitectura"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad de San Martín de Porres",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Sede Santa Anita",
+        "region": "Lima",
+        "url": "https://admision.usmp.edu.pe/nuestras-sedes-usmp/",
+        "programas": {
+          "ADM": ["Administración", "Administración de Negocios Internacionales", "Contabilidad y Finanzas", "Economía", "Gestión de Recursos Humanos", "Marketing"],
+          "SAL": ["Enfermería", "Obstetricia", "Odontología", "Psicología"],
+          "SOC": ["Derecho"]
+        }
+      },
+      {
+        "nombre": "Sede Lima Norte - Comas",
+        "region": "Lima",
+        "url": "https://admision.usmp.edu.pe/nuestras-sedes-usmp/",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería de Computación y Sistemas", "Ingeniería Industrial"],
+          "ADM": ["Administración", "Administración de Negocios Internacionales", "Contabilidad y Finanzas"],
+          "SAL": ["Enfermería", "Medicina Humana", "Psicología"],
+          "SOC": ["Derecho"],
+          "ART": ["Arquitectura"]
+        }
+      },
+      {
+        "nombre": "Sede La Molina",
+        "region": "Lima",
+        "url": "https://admision.usmp.edu.pe/nuestras-sedes-usmp/",
+        "programas": {
+          "ING": ["Ingeniería en Inteligencia Artificial y Robótica", "Ingeniería en Ciberseguridad y Análisis Forense Digital", "Ingeniería en Ciencias de Datos", "Ingeniería Civil", "Ingeniería de Computación y Sistemas", "Ingeniería Industrial"],
+          "SAL": ["Medicina Humana"],
+          "SOC": ["Derecho"],
+          "ART": ["Arquitectura"]
+        }
+      },
+      {
+        "nombre": "Sede Surquillo",
+        "region": "Lima",
+        "url": "https://admision.usmp.edu.pe/nuestras-sedes-usmp/",
+        "programas": {
+          "SAL": ["Psicología"],
+          "ADM": ["Turismo y Hotelería"],
+          "ART": ["Ciencias de la Comunicación"]
+        }
+      },
+      {
+        "nombre": "Sede San Luis",
+        "region": "Lima",
+        "url": "https://admision.usmp.edu.pe/nuestras-sedes-usmp/",
+        "programas": {
+          "EDU": ["Educación, Dirección e Interpretación Musical"]
+        }
+      },
+      {
+        "nombre": "Filial Norte - Chiclayo",
+        "region": "Lambayeque",
+        "url": "https://admision.usmp.edu.pe/nuestras-sedes-usmp/",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería Industrial", "Ingeniería en Inteligencia Artificial y Robótica", "Ingeniería en Ciberseguridad y Análisis Forense Digital", "Ingeniería en Ciencias de Datos"],
+          "ADM": ["Administración", "Administración de Negocios Internacionales", "Contabilidad y Finanzas", "Economía"],
+          "SAL": ["Medicina Humana", "Odontología", "Psicología"],
+          "SOC": ["Derecho"],
+          "ART": ["Arquitectura", "Ciencias de la Comunicación"]
+        }
+      },
+      {
+        "nombre": "Filial Sur - Arequipa",
+        "region": "Arequipa",
+        "url": "https://filialsur.usmp.edu.pe/",
+        "programas": {
+          "ADM": ["Administración", "Administración de Negocios Internacionales", "Contabilidad y Finanzas", "Turismo y Hotelería"],
+          "ING": ["Ingeniería Civil", "Ingeniería Industrial", "Ingeniería en Ciencia de Datos", "Ingeniería de Computación y Sistemas", "Ingeniería en Inteligencia Artificial y Robótica", "Ingeniería en Ciberseguridad y Análisis Forense Digital"],
+          "SAL": ["Odontología", "Psicología", "Medicina Humana", "Enfermería"],
+          "ART": ["Arquitectura"],
+          "SOC": ["Derecho"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional del Altiplano",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Puno",
+        "region": "Puno",
+        "url": "https://www.unap.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Agroindustrial", "Ingeniería Topográfica y Agrimensura", "Ingeniería de Minas", "Ingeniería Química", "Ingeniería Geológica", "Ingeniería Metalúrgica", "Ingeniería Agrícola", "Ingeniería Mecánica Eléctrica", "Ingeniería Electrónica", "Ingeniería de Sistemas"],
+          "ADM": ["Ingeniería Económica", "Ciencias Contables", "Administración"],
+          "SAL": ["Enfermería", "Nutrición Humana", "Odontología", "Medicina Humana"],
+          "SOC": ["Trabajo Social", "Sociología", "Turismo", "Antropología", "Ciencias de la Comunicación Social", "Derecho"],
+          "ART": ["Música", "Artes Plásticas", "Danza", "Arquitectura y Urbanismo"],
+          "NAT": ["Biología", "Biología Pesquera", "Microbiología y Laboratorio Clínico", "Ecología", "Física", "Matemáticas"],
+          "EDU": ["Educación Secundaria", "Educación Física", "Educación Primaria", "Educación Inicial"],
+          "AGR": ["Ingeniería Agronómica", "Medicina Veterinaria y Zootecnia"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional de Cajamarca",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Cajamarca",
+        "region": "Cajamarca",
+        "url": "https://www.unc.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería Geológica", "Ingeniería Hidráulica", "Ingeniería de Minas", "Ingeniería de Sistemas", "Ingeniería Forestal"],
+          "SAL": ["Medicina Humana", "Enfermería", "Obstetricia"],
+          "SOC": ["Derecho", "Sociología"],
+          "ADM": ["Turismo y Hotelería", "Administración", "Contabilidad", "Economía"],
+          "NAT": ["Biología y Biotecnología"],
+          "AGR": ["Agronomía", "Medicina Veterinaria", "Ingeniería Zootecnista"],
+          "EDU": ["Educación en Ciencias Naturales, Química y Biología", "Educación en Inglés y Español", "Educación en Lenguaje y Literatura", "Educación en Matemática y Física", "Educación Primaria"]
+        }
+      },
+      {
+        "nombre": "Filial Jaén",
+        "region": "Cajamarca",
+        "url": "https://www.unc.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería Forestal"],
+          "SAL": ["Enfermería"]
+        }
+      },
+      {
+        "nombre": "Filial Celendín",
+        "region": "Cajamarca",
+        "url": "https://www.unc.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Ambiental", "Ingeniería Sanitaria"]
+        }
+      },
+      {
+        "nombre": "Filial Chota",
+        "region": "Cajamarca",
+        "url": "https://www.unc.edu.pe/",
+        "programas": {
+          "ADM": ["Contabilidad"],
+          "SAL": ["Enfermería"]
+        }
+      },
+      {
+        "nombre": "Filial Bambamarca",
+        "region": "Cajamarca",
+        "url": "https://www.unc.edu.pe/",
+        "programas": {
+          "AGR": ["Ingeniería en Agronegocios"]
+        }
+      },
+      {
+        "nombre": "Filial Cajabamba",
+        "region": "Cajamarca",
+        "url": "https://www.unc.edu.pe/",
+        "programas": {
+          "ING": ["Industrias Alimentarias"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional de Frontera",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Sullana",
+        "region": "Piura",
+        "url": "https://www.unf.edu.pe/facultades/",
+        "programas": {
+          "ING": ["Ingeniería Ambiental", "Ingeniería Forestal", "Ingeniería de Industrias Alimentarias", "Ingeniería en Biotecnología"],
+          "ADM": ["Ingeniería Económica", "Administración", "Contabilidad", "Administración Hotelera y de Turismo"],
+          "SOC": ["Derecho"],
+          "EDU": ["Educación Inicial", "Educación Primaria"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional Pedro Ruiz Gallo",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Lambayeque",
+        "region": "Lambayeque",
+        "url": "https://www.unprg.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería de Sistemas", "Ingeniería Agrícola", "Ingeniería Mecánica y Eléctrica", "Ingeniería Química", "Ingeniería en Industrias Alimentarias"],
+          "ADM": ["Administración", "Comercio y Negocios Internacionales", "Contabilidad", "Economía"],
+          "SAL": ["Enfermería", "Medicina Humana"],
+          "SOC": ["Derecho", "Ciencia Política"],
+          "NAT": ["Biología", "Botánica", "Microbiología y Parasitología", "Pesquería"],
+          "AGR": ["Agronomía", "Ingeniería Zootecnia", "Medicina Veterinaria"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional del Santa",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Nuevo Chimbote",
+        "region": "Áncash",
+        "url": "https://www.uns.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería en Energía", "Ingeniería Agroindustrial", "Ingeniería Civil", "Ingeniería de Sistemas e Informática", "Ingeniería Agrónoma", "Ingeniería Mecánica"],
+          "SAL": ["Enfermería", "Medicina Humana"],
+          "NAT": ["Biología en Acuicultura", "Biotecnología"],
+          "EDU": ["Educación Inicial", "Educación Primaria", "Educación Secundaria"],
+          "SOC": ["Comunicación Social", "Derecho y Ciencias Políticas"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional Santiago Antúnez de Mayolo",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Huaraz",
+        "region": "Áncash",
+        "url": "https://www.unasam.edu.pe/",
+        "programas": {}
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional de Tumbes",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Tumbes",
+        "region": "Tumbes",
+        "url": "https://www.untumbes.edu.pe/",
+        "programas": {
+          "AGR": ["Agronomía", "Medicina Veterinaria y Zootecnia", "Ingeniería Forestal y Medio Ambiente", "Ingeniería Agroindustrial", "Ingeniería Agrícola"],
+          "ING": ["Ingeniería Pesquera", "Ingeniería Acuícola"],
+          "SAL": ["Enfermería", "Obstetricia"],
+          "ADM": ["Administración", "Contabilidad y Finanzas", "Economía"],
+          "SOC": ["Derecho", "Ciencias de la Comunicación", "Psicología"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional de Trujillo",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Ciudad Universitaria",
+        "region": "La Libertad",
+        "url": "https://unitru.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Agrícola", "Ingeniería Agroindustrial", "Ingeniería Ambiental", "Ingeniería Civil", "Ingeniería de Materiales", "Ingeniería Industrial", "Ingeniería Mecánica", "Ingeniería Mecatrónica", "Ingeniería Metalúrgica", "Ingeniería de Minas", "Ingeniería Química", "Ingeniería de Sistemas", "Informática"],
+          "ADM": ["Administración", "Contabilidad y Finanzas", "Economía"],
+          "SAL": ["Enfermería", "Estomatología", "Farmacia y Bioquímica", "Medicina"],
+          "SOC": ["Antropología", "Arqueología", "Ciencias Políticas y Gobernabilidad", "Derecho", "Historia", "Trabajo Social", "Turismo"],
+          "ART": ["Arquitectura y Urbanismo", "Ciencias de la Comunicación"],
+          "NAT": ["Biología Pesquera", "Ciencias Biológicas", "Estadística", "Física", "Matemáticas", "Microbiología y Parasitología"],
+          "EDU": ["Educación Inicial", "Educación Primaria", "Educación Secundaria"],
+          "AGR": ["Agronomía", "Zootecnia"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional de Jaén",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Jaén",
+        "region": "Cajamarca",
+        "url": "https://unj.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería Mecánica y Eléctrica", "Ingeniería de Industrias Alimentarias", "Ingeniería Forestal y Ambiental"],
+          "SAL": ["Tecnología Médica"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional Autónoma de Chota",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Colpa Matara",
+        "region": "Cajamarca",
+        "url": "https://www.portaluni.unach.edu.pe/",
+        "programas": {
+          "ADM": ["Contabilidad"],
+          "SAL": ["Enfermería"],
+          "ING": ["Ingeniería Civil", "Ingeniería Forestal y Ambiental", "Ingeniería Agroindustrial"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Chachapoyas",
+        "region": "Amazonas",
+        "url": "https://untrm.edu.pe/",
+        "programas": {}
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional de la Amazonía Peruana",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Iquitos",
+        "region": "Loreto",
+        "url": "https://admision.unapiquitos.edu.pe/carreras",
+        "programas": {
+          "ING": ["Ingeniería en Gestión Ambiental", "Ingeniería Forestal", "Ingeniería en Ecología de Bosques Tropicales", "Ingeniería en Industrias Alimentarias", "Ingeniería Química", "Ingeniería de Sistemas e Informática"],
+          "ADM": ["Administración", "Contabilidad", "Economía", "Negocios Internacionales y Turismo"],
+          "SAL": ["Enfermería", "Bromatología y Nutrición Humana", "Medicina Humana", "Farmacia y Bioquímica", "Odontología"],
+          "SOC": ["Antropología Social", "Derecho y Ciencias Políticas"],
+          "NAT": ["Ciencias Biológicas", "Acuicultura"],
+          "EDU": ["Educación Física", "Educación Inicial", "Educación Primaria", "Educación Secundaria"],
+          "AGR": ["Agronomía", "Zootecnia"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional Federico Villarreal",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Ciudad Universitaria",
+        "region": "Lima",
+        "url": "https://www.unfv.edu.pe/oca/index.php/pregrado",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería Industrial", "Ingeniería de Sistemas", "Ingeniería Informática", "Ingeniería Electrónica", "Ingeniería Geográfica", "Ingeniería Ambiental", "Ingeniería de Transportes", "Ingeniería Agroindustrial", "Ingeniería Alimentaria", "Ingeniería Pesquera", "Ingeniería en Acuicultura"],
+          "ADM": ["Administración de Empresas", "Administración Pública", "Administración de Turismo", "Negocios Internacionales", "Marketing", "Contabilidad", "Economía"],
+          "SAL": ["Medicina Humana", "Enfermería", "Odontología", "Nutrición", "Obstetricia", "Tecnología Médica", "Psicología", "Optometría"],
+          "SOC": ["Derecho", "Ciencia Política", "Sociología", "Trabajo Social", "Antropología", "Arqueología", "Historia", "Filosofía", "Lingüística"],
+          "ART": ["Arquitectura", "Ciencias de la Comunicación", "Literatura"],
+          "NAT": ["Biología", "Física", "Química", "Matemática", "Estadística"],
+          "EDU": ["Educación Inicial", "Educación Primaria", "Educación Secundaria", "Educación Física"],
+          "AGR": ["Agronomía", "Medicina Veterinaria"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional del Callao",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Bellavista",
+        "region": "Callao",
+        "url": "https://admision.unac.edu.pe/pregrado/",
+        "programas": {
+          "ING": ["Ingeniería de Alimentos", "Ingeniería Pesquera", "Ingeniería en Energía", "Ingeniería Mecánica", "Ingeniería Industrial", "Ingeniería de Sistemas", "Ingeniería Eléctrica", "Ingeniería Electrónica", "Ingeniería Ambiental y de Recursos Naturales", "Ingeniería Química", "Ciencia de Datos"],
+          "ADM": ["Administración", "Contabilidad", "Economía"],
+          "SAL": ["Enfermería", "Psicología"],
+          "EDU": ["Educación Física"],
+          "NAT": ["Física", "Matemática"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional Agraria La Molina",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus La Molina",
+        "region": "Lima",
+        "url": "https://admision.lamolina.edu.pe/carreras",
+        "programas": {
+          "AGR": ["Agronomía", "Zootecnia", "Ingeniería Agrícola", "Ingeniería Forestal"],
+          "ING": ["Ingeniería Ambiental", "Ingeniería en Industrias Alimentarias", "Ingeniería en Gestión Empresarial", "Ingeniería Meteorológica y Gestión de Riesgos Climáticos"],
+          "ADM": ["Economía"],
+          "NAT": ["Biología", "Pesquería", "Estadística Informática"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional del Centro del Perú",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Ciudad Universitaria Huancayo",
+        "region": "Junín",
+        "url": "https://uncpadmision.edu.pe/",
+        "programas": {
+          "SAL": ["Medicina Humana", "Enfermería"],
+          "ING": ["Ingeniería Civil", "Ingeniería de Minas", "Ingeniería de Sistemas", "Ingeniería Eléctrica", "Ingeniería Mecánica", "Ingeniería Metalúrgica y de Materiales", "Ingeniería Química", "Ingeniería Química Ambiental", "Ingeniería Química Industrial"],
+          "ADM": ["Administración de Empresas", "Contabilidad", "Economía"],
+          "SOC": ["Antropología", "Ciencias de la Comunicación", "Derecho y Ciencias Políticas", "Sociología", "Trabajo Social"],
+          "EDU": ["Educación Inicial", "Educación Primaria", "Educación Secundaria", "Educación Física y Psicomotricidad"],
+          "AGR": ["Agronomía", "Ingeniería Forestal y Ambiental", "Ingeniería en Industrias Alimentarias", "Zootecnia"]
+        }
+      },
+      {
+        "nombre": "Filial Tarma",
+        "region": "Junín",
+        "url": "https://uncpadmision.edu.pe/",
+        "programas": {
+          "ADM": ["Administración de Negocios", "Administración Hotelera y Turismo"],
+          "AGR": ["Ingeniería Agroindustrial"]
+        }
+      },
+      {
+        "nombre": "Filial Satipo",
+        "region": "Junín",
+        "url": "https://uncpadmision.edu.pe/",
+        "programas": {
+          "AGR": ["Agronomía Tropical", "Zootecnia Tropical"],
+          "ING": ["Ingeniería Forestal Tropical", "Ingeniería de Industrias Alimentarias Tropical"]
+        }
+      },
+      {
+        "nombre": "Sede Mantaro - Jauja",
+        "region": "Junín",
+        "url": "https://uncpadmision.edu.pe/",
+        "programas": {}
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional Hermilio Valdizán",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Pillco Marca",
+        "region": "Huánuco",
+        "url": "https://www.unheval.edu.pe/",
+        "programas": {
+          "SAL": ["Enfermería", "Medicina Humana", "Odontología", "Obstetricia", "Psicología"],
+          "EDU": ["Educación Física", "Educación Inicial", "Educación Primaria", "Biología, Química y Ciencia del Ambiente", "Ciencias Histórico Sociales y Geográficas", "Filosofía, Psicología y Ciencias Sociales", "Lengua y Literatura", "Matemática y Física"],
+          "SOC": ["Ciencias de la Comunicación Social", "Sociología", "Derecho y Ciencias Políticas"],
+          "ING": ["Arquitectura", "Ingeniería Civil", "Ingeniería Industrial", "Ingeniería de Sistemas", "Ingeniería Mecatrónica"],
+          "ADM": ["Ciencias Administrativas", "Turismo y Hotelería", "Ciencias Contables y Financieras", "Economía"],
+          "AGR": ["Ingeniería Agronómica", "Ingeniería Agroindustrial", "Medicina Veterinaria"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional Jorge Basadre Grohmann",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Ciudad Universitaria",
+        "region": "Tacna",
+        "url": "https://www.unjbg.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería de Minas", "Ingeniería Metalúrgica", "Ingeniería en Informática y Sistemas", "Ingeniería Química", "Ingeniería Mecánica", "Ingeniería Civil", "Ingeniería Geológica-Geotecnia"],
+          "ADM": ["Ciencias Contables y Financieras", "Ciencias Administrativas", "Ingeniería Comercial", "Economía Agraria"],
+          "SOC": ["Derecho y Ciencias Políticas", "Ciencias de la Comunicación", "Historia"],
+          "SAL": ["Medicina Humana", "Obstetricia", "Enfermería", "Odontología", "Farmacia y Bioquímica"],
+          "AGR": ["Agronomía", "Medicina Veterinaria y Zootecnia"],
+          "NAT": ["Biología - Microbiología", "Física Aplicada", "Matemática"],
+          "ART": ["Arquitectura", "Artes"],
+          "EDU": ["Educación: Matemática, Computación e Informática", "Educación: Ciencias Sociales y Promoción Sociocultural", "Educación: Lengua y Literatura", "Educación: Idioma Extranjero", "Educación: Ciencias de la Naturaleza y Promoción Educativa Ambiental"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional de San Cristóbal de Huamanga",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Ayacucho",
+        "region": "Ayacucho",
+        "url": "https://www.unsch.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Agrícola", "Ingeniería Agroforestal", "Ingeniería de Minas", "Ingeniería Civil", "Ingeniería de Sistemas", "Ingeniería Química", "Ingeniería en Industrias Alimentarias", "Ingeniería Agroindustrial"],
+          "AGR": ["Medicina Veterinaria", "Agronomía"],
+          "NAT": ["Biología", "Ciencias Físico-Matemáticas"],
+          "EDU": ["Educación Inicial", "Educación Primaria", "Educación Secundaria", "Educación Física"],
+          "ADM": ["Administración de Empresas", "Contabilidad y Auditoría", "Economía"],
+          "SOC": ["Antropología Social", "Arqueología e Historia", "Trabajo Social", "Ciencias de la Comunicación", "Derecho"],
+          "SAL": ["Obstetricia", "Enfermería", "Farmacia y Bioquímica", "Medicina Humana"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional de Ucayali",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Pucallpa",
+        "region": "Ucayali",
+        "url": "https://www.unu.edu.pe/",
+        "programas": {
+          "AGR": ["Agronomía", "Ingeniería Agroindustrial", "Ingeniería Forestal"],
+          "ING": ["Ingeniería Ambiental", "Ingeniería de Sistemas", "Ingeniería Civil"],
+          "SAL": ["Enfermería", "Psicología", "Medicina Humana"],
+          "ADM": ["Ciencias Administrativas", "Ciencias Contables y Financieras", "Economía y Negocios Internacionales"],
+          "SOC": ["Derecho y Ciencias Políticas", "Ciencias de la Comunicación"],
+          "EDU": ["Educación Inicial", "Educación Primaria", "Educación Secundaria"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional de Cañete",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Cañete",
+        "region": "Lima",
+        "url": "https://www.undc.edu.pe/",
+        "programas": {
+          "ADM": ["Administración", "Administración de Turismo y Hotelería", "Contabilidad"],
+          "ING": ["Ingeniería de Sistemas"],
+          "AGR": ["Agronomía"],
+          "SOC": ["Derecho y Ciencias Políticas"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional de Barranca",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Barranca",
+        "region": "Lima",
+        "url": "https://www.unab.edu.pe/",
+        "programas": {
+          "SAL": ["Psicología", "Obstetricia", "Enfermería"],
+          "ING": ["Ingeniería de Sistemas e Informática", "Ingeniería de Industrias Alimentarias", "Ingeniería Civil"],
+          "AGR": ["Ingeniería Agrónoma"],
+          "ADM": ["Administración", "Contabilidad y Finanzas"],
+          "SOC": ["Derecho y Ciencia Política"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional Autónoma de Huanta",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Huanta",
+        "region": "Ayacucho",
+        "url": "https://unah.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Ambiental", "Ingeniería de Negocios Agronómicos y Forestales"],
+          "ADM": ["Administración de Turismo Sostenible y Hotelería"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional José María Arguedas",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Andahuaylas",
+        "region": "Apurímac",
+        "url": "https://www.unajma.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería de Sistemas", "Ingeniería Ambiental", "Ingeniería Agroindustrial", "Ingeniería Civil"],
+          "ADM": ["Administración de Empresas", "Contabilidad"],
+          "SAL": ["Enfermería", "Psicología"],
+          "EDU": ["Educación Primaria Intercultural"],
+          "NAT": ["Matemáticas y Estadística Aplicadas"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional Micaela Bastidas de Apurímac",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Abancay",
+        "region": "Apurímac",
+        "url": "https://www.unamba.edu.pe/",
+        "programas": {
+          "ADM": ["Administración"],
+          "ING": ["Ingeniería Informática y Sistemas", "Ingeniería de Minas", "Ingeniería Agroindustrial", "Ingeniería Civil", "Ingeniería Agroecológica y Desarrollo Rural"],
+          "AGR": ["Medicina Veterinaria y Zootecnia"],
+          "EDU": ["Educación Inicial Intercultural Bilingüe"],
+          "SOC": ["Ciencia Política y Gobernabilidad"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional Intercultural de la Amazonía",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Yarinacocha",
+        "region": "Ucayali",
+        "url": "https://unia.edu.pe/",
+        "programas": {
+          "EDU": ["Educación Inicial Bilingüe", "Educación Primaria Bilingüe"],
+          "ING": ["Ingeniería Agroindustrial"],
+          "AGR": ["Ingeniería Agroforestal Acuícola"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional de Juliaca",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Juliaca",
+        "region": "Puno",
+        "url": "https://www.unaj.edu.pe/",
+        "programas": {
+          "ADM": ["Administración y Emprendimiento Empresarial", "Economía", "Gestión Pública y Desarrollo Social"],
+          "ING": ["Ingeniería de Software y Sistemas", "Ingeniería Ambiental y Forestal", "Ingeniería Mecatrónica", "Ingeniería en Energías Renovables", "Ingeniería Industrial", "Ingeniería en Industrias Alimentarias", "Ingeniería Textil y de Confecciones"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Nacional Daniel Alcides Carrión",
+    "tipo": "Pública",
+    "sedes": [
+      {
+        "nombre": "Campus Cerro de Pasco",
+        "region": "Pasco",
+        "url": "https://www.undac.edu.pe/",
+        "programas": {
+          "ADM": ["Administración", "Contabilidad", "Economía"],
+          "ING": ["Ingeniería Civil", "Ingeniería Ambiental", "Ingeniería de Minas", "Ingeniería Geológica", "Ingeniería de Sistemas y Computación", "Ingeniería Metalúrgica"],
+          "SAL": ["Medicina Humana", "Enfermería", "Obstetricia", "Odontología"],
+          "SOC": ["Derecho y Ciencias Políticas", "Ciencias de la Comunicación"],
+          "EDU": ["Educación Inicial", "Educación Primaria", "Educación Secundaria"],
+          "NAT": ["Matemática y Física"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Peruana Cayetano Heredia",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus Lima",
+        "region": "Lima",
+        "url": "https://cayetano.edu.pe/pregrado/carreras/",
+        "programas": {
+          "ING": ["Ingeniería Ambiental", "Ingeniería Biomédica", "Ingeniería Industrial", "Ingeniería Informática"],
+          "ADM": ["Administración", "Administración en Salud", "Gestión de Desarrollo Global"],
+          "SAL": ["Medicina", "Enfermería", "Estomatología", "Farmacia y Bioquímica", "Laboratorio Clínico y Anatomía Patológica", "Nutrición", "Psicología"],
+          "NAT": ["Biología", "Química"],
+          "EDU": ["Educación", "Educación Inicial", "Educación Primaria"],
+          "AGR": ["Medicina Veterinaria y Zootecnia"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Pontificia Universidad Católica del Perú",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus San Miguel",
+        "region": "Lima",
+        "url": "https://admision.pucp.edu.pe/carreras",
+        "programas": {
+          "ING": ["Ingeniería Ambiental y Sostenible", "Ingeniería Biomédica", "Ingeniería Civil", "Ingeniería de las Telecomunicaciones", "Ingeniería de Minas", "Ingeniería Electrónica", "Ingeniería Geológica", "Ingeniería Industrial", "Ingeniería Informática", "Ingeniería Mecánica", "Ingeniería Mecatrónica", "Ingeniería Química"],
+          "ADM": ["Administración", "Contabilidad", "Economía", "Finanzas", "Gestión"],
+          "SAL": ["Psicología"],
+          "SOC": ["Antropología", "Ciencia Política y Gobierno", "Derecho", "Filosofía", "Geografía y Medio Ambiente", "Historia", "Lingüística y Literatura", "Sociología"],
+          "ART": ["Arquitectura", "Arte, Moda y Diseño Textil", "Comunicación Audiovisual", "Comunicación para el Desarrollo", "Creación y Producción Escénica", "Danza", "Diseño Gráfico", "Diseño Industrial", "Escultura", "Grabado", "Música", "Pintura", "Teatro"],
+          "NAT": ["Estadística", "Física", "Matemáticas", "Química"],
+          "EDU": ["Educación Artística", "Educación Inicial", "Educación Primaria", "Educación Secundaria"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Científica del Sur",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus Villa",
+        "region": "Lima",
+        "url": "https://www.cientifica.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Ambiental", "Ingeniería Civil", "Ingeniería de Sistemas", "Ingeniería Empresarial"],
+          "ADM": ["Administración de Empresas", "Administración de Negocios Internacionales"],
+          "SAL": ["Medicina Humana", "Enfermería", "Nutrición y Dietética", "Psicología", "Estomatología", "Obstetricia"],
+          "NAT": ["Biología Marina", "Biología"],
+          "AGR": ["Medicina Veterinaria y Zootecnia"],
+          "SOC": ["Derecho", "Comunicación"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Peruana de Ciencias Aplicadas",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus Monterrico",
+        "region": "Lima",
+        "url": "https://upc.edu.pe/admision/",
+        "programas": {
+          "ING": ["Ciencias de la Computación", "Ingeniería Ambiental", "Ingeniería Biomédica", "Ingeniería Civil", "Ingeniería de Ciberseguridad", "Ingeniería de Sistemas de Información", "Ingeniería de Software", "Ingeniería Electrónica", "Ingeniería Industrial", "Ingeniería Mecatrónica"],
+          "ADM": ["Administración", "Administración y Finanzas", "Administración y Marketing", "Administración y Negocios Internacionales", "Contabilidad y Finanzas", "Economía y Finanzas", "Economía y Negocios Internacionales"],
+          "SAL": ["Medicina", "Medicina Veterinaria", "Nutrición y Dietética", "Odontología", "Psicología", "Terapia Física"],
+          "SOC": ["Derecho", "Ciencias Políticas", "Relaciones Internacionales"],
+          "ART": ["Arquitectura", "Artes Escénicas", "Comunicación Audiovisual y Medios Interactivos", "Diseño Profesional Gráfico", "Diseño Industrial", "Música"],
+          "EDU": ["Educación y Gestión del Aprendizaje"],
+          "AGR": ["Biología"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad San Ignacio de Loyola",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus La Molina",
+        "region": "Lima",
+        "url": "https://usil.edu.pe/pregrado/",
+        "programas": {
+          "ING": ["Ingeniería Ambiental", "Ingeniería Industrial y Comercial"],
+          "ADM": ["Administración", "Administración de Empresas", "Administración Hotelera", "Marketing", "Negocios Internacionales"],
+          "SAL": ["Medicina Humana"],
+          "SOC": ["Derecho"],
+          "ART": ["Arquitectura", "Comunicaciones", "Artes y Humanidades"],
+          "EDU": ["Educación"],
+          "AGR": ["Ingeniería Agroindustrial"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad César Vallejo",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus Lima",
+        "region": "Lima",
+        "url": "https://www.ucv.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería Industrial", "Ingeniería de Sistemas", "Ingeniería Ambiental"],
+          "ADM": ["Administración", "Administración y Marketing", "Contabilidad", "Economía"],
+          "SAL": ["Medicina", "Enfermería", "Psicología", "Estomatología"],
+          "SOC": ["Derecho", "Ciencias de la Comunicación"],
+          "EDU": ["Educación Inicial", "Educación Primaria", "Educación Secundaria"],
+          "AGR": ["Ingeniería Agroindustrial"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Continental",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus Huancayo",
+        "region": "Junín",
+        "url": "https://ucontinental.edu.pe/admision/",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería Ambiental", "Ingeniería de Sistemas e Informática", "Ingeniería Industrial", "Ingeniería de Minas"],
+          "ADM": ["Administración y Finanzas", "Administración y Marketing", "Administración y Negocios Internacionales", "Contabilidad", "Economía"],
+          "SAL": ["Medicina Humana", "Enfermería", "Psicología", "Odontología", "Farmacia y Bioquímica"],
+          "SOC": ["Derecho"],
+          "EDU": ["Educación"],
+          "AGR": ["Agronomía"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Ricardo Palma",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus Surco",
+        "region": "Lima",
+        "url": "https://www.urp.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería Industrial", "Ingeniería Electrónica", "Ingeniería Informática", "Ingeniería Mecatrónica"],
+          "ADM": ["Administración y Gerencia", "Administración de Negocios Globales", "Contabilidad y Finanzas", "Economía", "Marketing Global y Administración Comercial"],
+          "SAL": ["Medicina Humana", "Psicología", "Medicina Veterinaria"],
+          "SOC": ["Derecho", "Traducción e Interpretación"],
+          "ART": ["Arquitectura", "Turismo, Hotelería y Gastronomía"],
+          "NAT": ["Biología"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad de Lima",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus Monterrico",
+        "region": "Lima",
+        "url": "https://www.ulima.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería Industrial", "Ingeniería de Sistemas"],
+          "ADM": ["Administración", "Contabilidad y Finanzas", "Economía", "Marketing"],
+          "SOC": ["Derecho"],
+          "ART": ["Comunicación", "Arquitectura"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Privada del Norte",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus Lima",
+        "region": "Lima",
+        "url": "https://www.upn.edu.pe/admision/carreras-upn",
+        "programas": {
+          "ING": ["Ingeniería Agroindustrial", "Ingeniería Ambiental", "Ingeniería Biomédica", "Ingeniería Civil", "Ingeniería de Minas", "Ingeniería de Sistemas Computacionales", "Ingeniería de Software", "Ingeniería Electrónica", "Ingeniería Empresarial", "Ingeniería en Ciberseguridad", "Ingeniería en Ciencia de Datos", "Ingeniería Geológica", "Ingeniería Industrial", "Ingeniería Mecatrónica"],
+          "ADM": ["Administración", "Administración Bancaria y Financiera", "Administración y Marketing", "Administración y Negocios Internacionales", "Contabilidad y Finanzas", "Economía"],
+          "SAL": ["Enfermería", "Farmacia y Bioquímica", "Medicina Humana", "Nutrición y Dietética", "Obstetricia", "Psicología", "Terapia Física y Rehabilitación"],
+          "SOC": ["Derecho"],
+          "ART": ["Arquitectura y Diseño de Interiores", "Arquitectura y Urbanismo", "Comunicación", "Comunicación Audiovisual en Medios Digitales", "Comunicación y Diseño Gráfico", "Comunicación y Periodismo"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Privada San Juan Bautista",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus Chorrillos",
+        "region": "Lima",
+        "url": "https://www.upsjb.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Civil", "Ingeniería de Computación y Sistemas"],
+          "ADM": ["Administración de Negocios", "Contabilidad"],
+          "SAL": ["Medicina Humana", "Enfermería", "Estomatología", "Psicología", "Medicina Veterinaria"],
+          "SOC": ["Derecho"],
+          "ART": ["Ciencias de la Comunicación"],
+          "EDU": ["Educación"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad Peruana Unión",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus Ñaña",
+        "region": "Lima",
+        "url": "https://www.upeu.edu.pe/",
+        "programas": {
+          "ING": ["Ingeniería Ambiental", "Ingeniería Civil", "Ingeniería de Sistemas", "Ingeniería de Industrias Alimentarias"],
+          "ADM": ["Administración", "Contabilidad y Gestión Tributaria"],
+          "SAL": ["Enfermería", "Medicina Humana", "Psicología", "Nutrición Humana"],
+          "SOC": ["Derecho", "Ciencias de la Comunicación"],
+          "ART": ["Arquitectura"],
+          "EDU": ["Educación"],
+          "AGR": ["Agronomía"]
+        }
+      },
+      {
+        "nombre": "Campus Juliaca",
+        "region": "Puno",
+        "url": "https://www.upeu.edu.pe/",
+        "programas": {}
+      },
+      {
+        "nombre": "Campus Tarapoto",
+        "region": "San Martín",
+        "url": "https://www.upeu.edu.pe/",
+        "programas": {}
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad de Ingeniería y Tecnología",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus Barranco",
+        "region": "Lima",
+        "url": "https://utec.edu.pe/admision",
+        "programas": {
+          "ING": ["Ingeniería Ambiental", "Ingeniería Civil", "Ingeniería Industrial", "Ingeniería Química", "Ingeniería Mecánica", "Ingeniería de la Energía", "Ingeniería Mecatrónica", "Bioingeniería", "Ingeniería Electrónica", "Ciencia de la Computación", "Ciencia de Datos e Inteligencia Artificial", "Sistemas de Información", "Ciberseguridad"],
+          "ADM": ["Administración y Negocios Digitales", "Business Analytics"],
+          "NAT": ["Física"]
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Universidad del Pacífico",
+    "tipo": "Privada",
+    "sedes": [
+      {
+        "nombre": "Campus Jesús María",
+        "region": "Lima",
+        "url": "https://admision.up.edu.pe/carreras/",
+        "programas": {
+          "ING": ["Ingeniería Empresarial", "Ingeniería de la Información", "Ingeniería en Innovación y Diseño"],
+          "ADM": ["Administración", "Contabilidad", "Economía", "Finanzas", "Marketing", "Negocios Internacionales"],
+          "SOC": ["Derecho", "Política, Filosofía y Economía"],
+          "ART": ["Humanidades Digitales"]
+        }
+      }
+    ]
+  }
+]

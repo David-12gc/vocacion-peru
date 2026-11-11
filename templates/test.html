@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario | Vocación Perú</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <main class="test-container">
+
+        <div class="tag">VOCACIÓN PERÚ</div>
+
+        <h1>Descubre tus intereses</h1>
+
+        <p class="description">
+            Selecciona cuánto te interesa realizar cada actividad.
+        </p>
+
+        <form action="{{ url_for('resultado') }}" method="POST">
+
+            {% for pregunta in preguntas %}
+
+            <div class="question-card">
+
+                <h2>Pregunta {{ loop.index }}</h2>
+
+                <p>{{ pregunta.pregunta }}</p>
+
+                <input type="hidden"
+                       name="area_{{ pregunta.id }}"
+                       value="{{ pregunta.area }}">
+
+                <div class="options">
+
+                    {% for valor, texto in [
+                        (1, "Nada interesado"),
+                        (2, "Poco interesado"),
+                        (3, "Medianamente interesado"),
+                        (4, "Muy interesado"),
+                        (5, "Totalmente interesado")
+                    ] %}
+
+                    <label class="option">
+                        <input
+                            type="radio"
+                            name="respuesta_{{ pregunta.id }}"
+                            value="{{ valor }}"
+                            required
+                        >
+                        <span>{{ texto }}</span>
+                    </label>
+
+                    {% endfor %}
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+            <button type="submit">
+                Finalizar cuestionario
+            </button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>

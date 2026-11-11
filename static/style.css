@@ -1,0 +1,704 @@
+
+/* ==========================================
+   VOCACIÓN PERÚ - ESTILOS GENERALES
+========================================== */
+
+:root {
+    --fondo: #0b1120;
+    --fondo-secundario: #111c30;
+    --tarjeta: #17243a;
+    --tarjeta-hover: #1d2e49;
+    --azul: #0284c7;
+    --azul-hover: #0369a1;
+    --celeste: #38bdf8;
+    --blanco: #f8fafc;
+    --gris: #94a3b8;
+    --borde: #263750;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--fondo);
+    color: var(--blanco);
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ==========================================
+   NAVEGACIÓN
+========================================== */
+
+.navbar {
+    width: 100%;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--fondo-secundario);
+    border-bottom: 1px solid var(--borde);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--celeste);
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: var(--gris);
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--celeste);
+}
+
+/* ==========================================
+   PÁGINA PRINCIPAL
+========================================== */
+
+.hero {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    max-width: 850px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: var(--celeste);
+}
+
+.hero p {
+    max-width: 650px;
+    color: var(--gris);
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 7px 16px;
+    background: rgba(56, 189, 248, 0.12);
+    color: var(--celeste);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* ==========================================
+   BOTONES
+========================================== */
+
+.start-button,
+.submit-button {
+    display: inline-block;
+    padding: 14px 30px;
+    background: var(--azul);
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start-button:hover,
+.submit-button:hover {
+    background: var(--azul-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(2, 132, 199, 0.2);
+}
+
+/* ==========================================
+   SECCIONES INFORMATIVAS
+========================================== */
+
+.features,
+.information {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.features h2,
+.information h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.feature-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.feature-card {
+    background: var(--tarjeta);
+    padding: 30px;
+    border: 1px solid var(--borde);
+    border-radius: 14px;
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    background: var(--tarjeta-hover);
+}
+
+.feature-card h3 {
+    color: var(--celeste);
+    margin-bottom: 12px;
+}
+
+.feature-card p {
+    color: var(--gris);
+}
+
+/* ==========================================
+   PIE DE PÁGINA
+========================================== */
+
+footer {
+    padding: 30px 20px;
+    text-align: center;
+    background: var(--fondo-secundario);
+    color: var(--gris);
+    border-top: 1px solid var(--borde);
+    margin-top: 50px;
+}
+
+/* ==========================================
+   CONTENEDORES
+========================================== */
+
+.test-container {
+    width: 90%;
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 35px;
+    background: var(--fondo-secundario);
+    border: 1px solid var(--borde);
+    border-radius: 16px;
+}
+
+.test-container h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: var(--gris);
+    margin-bottom: 25px;
+}
+
+/* ==========================================
+   TARJETAS
+========================================== */
+
+.question-card {
+    background: var(--tarjeta);
+    border: 1px solid var(--borde);
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 12px;
+}
+
+.question-card h2 {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.question-card p {
+    color: var(--gris);
+}
+
+/* ==========================================
+   OPCIONES DEL CUESTIONARIO
+========================================== */
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 13px 16px;
+    background: var(--fondo-secundario);
+    border: 1px solid var(--borde);
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.option:hover {
+    border-color: var(--celeste);
+    background: var(--tarjeta-hover);
+}
+
+.option input[type="radio"] {
+    accent-color: var(--celeste);
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.option label {
+    cursor: pointer;
+    color: var(--blanco);
+}
+
+/* ==========================================
+   BOTÓN DE ENVÍO
+========================================== */
+
+.submit-button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* ==========================================
+   RESULTADOS
+========================================== */
+
+.result-score {
+    font-size: 27px;
+    font-weight: bold;
+    color: var(--celeste);
+    margin: 10px 0 20px;
+}
+
+.result-section-title {
+    font-size: 18px;
+    color: var(--celeste);
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+/* ==========================================
+   LISTA DE CARRERAS
+========================================== */
+
+.career-list {
+    padding-left: 22px;
+    margin-top: 12px;
+}
+
+.career-list li {
+    color: var(--blanco);
+    margin-bottom: 8px;
+}
+
+/* ==========================================
+   GRÁFICOS RIASEC
+========================================== */
+
+.riasec-chart {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-top: 25px;
+}
+
+.riasec-item {
+    display: block;
+    width: 100%;
+}
+
+.riasec-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 9px;
+}
+
+.riasec-info span {
+    font-weight: 600;
+    color: var(--blanco);
+}
+
+.riasec-info strong {
+    font-size: 17px;
+    color: var(--celeste);
+}
+
+.riasec-item small {
+    color: var(--gris);
+    font-size: 13px;
+}
+
+/* ==========================================
+   BARRAS DE AFINIDAD
+========================================== */
+
+.affinity-track {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 16px;
+    min-height: 16px;
+    background: #263750;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.affinity-fill {
+    display: block;
+    height: 100%;
+    min-height: 16px;
+    background: linear-gradient(
+        90deg,
+        #0284c7,
+        #7c3aed
+    );
+    border-radius: 20px;
+    transition: width 0.8s ease;
+}
+
+.riasec-fill {
+    background: linear-gradient(
+        90deg,
+        #0ea5e9,
+        #38bdf8
+    );
+}
+
+/* ==========================================
+   PORCENTAJES DE FAMILIAS
+========================================== */
+
+.result-percentage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.result-percentage span {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--celeste);
+}
+
+.result-percentage small {
+    color: var(--gris);
+    font-size: 14px;
+}
+
+/* ==========================================
+   UNIVERSIDADES
+========================================== */
+
+.university-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.university-accordion {
+    background: var(--fondo-secundario);
+    border: 1px solid var(--borde);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.university-accordion:hover {
+    border-color: var(--celeste);
+}
+
+.university-accordion summary {
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--blanco);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.university-accordion summary::-webkit-details-marker {
+    display: none;
+}
+
+.university-accordion summary::after {
+    content: "+";
+    color: var(--celeste);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.university-accordion[open] summary::after {
+    content: "−";
+}
+
+.university-content {
+    padding: 18px;
+    border-top: 1px solid var(--borde);
+}
+
+.university-content p {
+    margin-bottom: 12px;
+    color: var(--gris);
+}
+
+.university-content strong {
+    color: var(--blanco);
+}
+
+.university-careers {
+    padding-left: 22px;
+    margin: 10px 0 20px;
+}
+
+.university-careers li {
+    margin-bottom: 7px;
+    color: var(--gris);
+}
+
+.university-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background: rgba(2, 132, 199, 0.15);
+    color: var(--celeste);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.university-link:hover {
+    background: var(--azul);
+    color: white;
+}
+
+.empty-universities {
+    color: var(--gris);
+    padding: 15px;
+    background: var(--fondo-secundario);
+    border-radius: 8px;
+    border: 1px dashed var(--borde);
+}
+
+/* ==========================================
+   FILTROS DE UNIVERSIDADES
+========================================== */
+
+.university-filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 15px;
+    align-items: end;
+    margin-top: 25px;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.filter-group label {
+    color: var(--blanco);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.filter-group select {
+    width: 100%;
+    padding: 12px;
+    background: var(--fondo);
+    color: var(--blanco);
+    border: 1px solid var(--borde);
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.filter-group select:focus {
+    border-color: var(--celeste);
+}
+
+.filter-group select option {
+    background: var(--fondo-secundario);
+    color: var(--blanco);
+}
+
+.reset-filter-button {
+    padding: 12px 16px;
+    background: var(--tarjeta-hover);
+    color: var(--celeste);
+    border: 1px solid var(--borde);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.reset-filter-button:hover {
+    background: var(--azul);
+    color: white;
+}
+
+.filter-counter {
+    margin-top: 20px;
+    color: var(--celeste);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.filter-empty {
+    margin-top: 12px;
+}
+
+/* ==========================================
+   RESPONSIVE: TABLETS
+========================================== */
+
+@media (max-width: 900px) {
+
+    .feature-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+}
+
+/* ==========================================
+   RESPONSIVE: CELULARES
+========================================== */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        padding: 18px 5%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        min-height: 65vh;
+        padding: 40px 20px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .features,
+    .information {
+        padding: 45px 5%;
+    }
+
+    .features h2,
+    .information h2 {
+        font-size: 25px;
+    }
+
+    .feature-container {
+        grid-template-columns: 1fr;
+    }
+
+    .test-container {
+        width: 94%;
+        margin: 20px auto;
+        padding: 20px 15px;
+    }
+
+    .test-container h1 {
+        font-size: 26px;
+    }
+
+    .question-card {
+        padding: 18px 14px;
+    }
+
+    .question-card h2 {
+        font-size: 19px;
+    }
+
+    .result-percentage span {
+        font-size: 25px;
+    }
+
+    .university-accordion summary {
+        padding: 13px;
+        font-size: 14px;
+    }
+
+    .university-content {
+        padding: 14px;
+    }
+
+    .start-button,
+    .submit-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .university-filters {
+        grid-template-columns: 1fr;
+    }
+
+    .reset-filter-button {
+        width: 100%;
+    }
+
+}

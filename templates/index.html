@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Vocacional Perú</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">VOCACIÓN<span>PERÚ</span></div>
+        <a href="#informacion" class="nav-link">Sobre el test</a>
+    </header>
+
+    <main class="hero">
+
+        <div class="tag">ORIENTACIÓN VOCACIONAL</div>
+
+        <h1>Descubre tu futuro.<br>
+            <span>Encuentra tu vocación.</span>
+        </h1>
+
+        <p class="description">
+            Conoce tus intereses, identifica tus habilidades
+            y descubre carreras profesionales que podrían
+            encajar contigo.
+        </p>
+
+        <a href="{{ url_for('test') }}" class="start-button">
+            Conocer el test →
+        </a>
+
+        <div class="features">
+            <div>
+                <strong>100</strong>
+                <span>Preguntas</span>
+            </div>
+
+            <div>
+                <strong>6</strong>
+                <span>Áreas vocacionales</span>
+            </div>
+
+            <div>
+                <strong>5</strong>
+                <span>Carreras recomendadas</span>
+            </div>
+        </div>
+
+    </main>
+
+    <section id="informacion" class="information">
+        <h2>Un camino hacia tu futuro</h2>
+        <p>
+            Este test busca ayudarte a reconocer tus intereses
+            y explorar diferentes posibilidades profesionales.
+            Sus resultados son orientativos y no sustituyen
+            una evaluación profesional.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Vocación Perú | Proyecto de orientación vocacional</p>
+    </footer>
+
+</body>
+</html>
